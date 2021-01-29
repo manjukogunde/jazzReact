@@ -1,0 +1,1083 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#root{
+    background:  #f5f5f5;
+    
+}
+
+.pink-gear{
+    text-align: right;
+            align-items: right;
+            margin-left: 90%;
+}
+.catImage img{
+    width: 100px;
+}
+
+
+.title-bar{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    background: #2b343e;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    box-sizing: border-box;  
+}
+
+    .title-wrap{
+        width: 100%;
+        display:flex;
+        padding: 20px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+        .jazz-logo{
+            height: 33px;
+            object-fit: contain;
+
+        }
+
+        .notifications{
+            display: flex;
+            align-items: center;
+        }
+
+            .bell{
+                position: relative;
+                width: 16px;
+                height: 19px;
+                object-fit: contain;
+            }
+            .profile{
+                width: 36px;
+                height: 36px;
+                margin-left: 20px;
+                
+            }
+.nav-bar{
+    display: flex;
+    width: 100%;
+                background: white;
+                align-items: center;
+                padding:5px;
+                flex-wrap: wrap;
+            }
+            
+                .nav-bar img{
+            
+                    height: 12px;
+                    padding-left: 10px;
+                }
+                .nav-links{
+                    display: flex;
+                    align-content: left;
+                    flex-wrap: wrap;
+                    padding: 5px 0;
+                }
+            
+                .home{
+                    font-family: Lato;
+                    font-size: 12px;
+                    font-weight: bold;
+                    text-align: right;
+                    color: #e20074;
+                    margin-left: 10px;
+                }
+            
+                .nav-links div{
+                    font-family: Lato;
+                    font-size: 12px;
+                    font-weight: bold;
+                    text-align: left;
+                }
+            
+                .home-2{
+                    font-family: Lato;
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: #333333;
+                    margin-left: 10px;
+            
+                }        
+
+                .bar{
+                    margin-left: 10px;
+                }  
+
+.main{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 36px;
+    padding-right: 36px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    
+}
+
+.layer1{
+    position: relative;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /* padding-left: 10px; */
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.back-png{
+    position: absolute;
+    right: 0px;
+    top:0px;
+    width: 158px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+    margin-right: 36px;
+  
+
+}
+
+
+    
+        .stext{
+            align-items: center;
+            padding-top: 30px;
+            display: flex;
+            font-family: Lato;
+            font-size: 24px;
+            font-weight: bold;
+            color: #000000;
+        }
+
+        .stext img{
+            width: 20px;
+            height: 20px;
+            margin-left: 10px;
+        }
+
+        .snav {
+            padding-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+
+        .clink{
+            font-family: Lato;
+            font-size: 12px;
+            color: #77818b;
+            margin-right: 15px;
+            text-decoration: none;
+        }
+
+        .progress{
+            align-items: center;
+            padding-left: 40px;
+               
+        }
+            .pbar{
+                display: flex;
+                align-items: baseline;
+                padding-top: 55px;
+            }
+
+            
+            .gbar{
+
+                width: 40px;
+
+                height: 10px;
+              
+                margin: 0 10px 8px 0;
+              
+                border-radius: 8px;
+              
+                background-color: #5cae01;
+                
+            }
+
+            .barg{
+                background-color: #5cae01;
+            }
+            .ebar{
+                width: 40px;
+
+                height: 10px;
+              
+                margin: 0 10px 8px 0;
+              
+                border-radius: 8px;
+              
+                background-color: #d8d8d8;
+            }
+
+            .pbar-captions{
+                display: flex;
+                font-family: Lato;
+                font-size: 11px;
+                color: #e20074;
+                padding-top: 1px;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                
+            }
+
+            .text2{
+                font-weight: bold;
+
+                color: #77818b;
+            }
+
+            .icons{
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                vertical-align: top;
+                padding-top: 50px;
+            }
+
+            figure1{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                vertical-align: middle;
+                margin-left: 36px;
+            }
+            .icon-pack{
+                width: 27px;
+                height: 27px;
+                object-fit: contain;
+                
+            }
+
+            figure1 figcaption{
+                font-family: Lato;
+                font-size: 10px;
+                font-weight: bold;
+                text-align: center;
+                color: #e20074;
+                vertical-align: middle;
+                padding-top: 10px;
+                
+            }
+
+            .icon1{
+                margin-left: 0;
+                padding-left: 20px;
+            }
+
+            .card1{
+                gap: 20px;
+                background: white;
+                flex-wrap: wrap;
+                display: flex;
+                margin-top: 50px;
+                padding: 31px 39px;
+                
+                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+            }
+        
+            .general{
+                width:33%;
+                flex-grow: 1;
+                flex-basis: 200px;
+                display: flex;
+                flex-direction: column;
+                border-radius: 8px;
+                
+               
+                
+            }
+                .general-title{
+                    display: flex;
+                    
+                    align-items: center;
+                    padding-bottom: 20px;
+                }
+        
+                .gen{
+        
+                  
+                    font-family: Lato;
+                  
+                    font-size: 18px;
+                  
+                    font-weight: bold;
+                  
+                    font-stretch: normal;
+                  
+                    font-style: normal;
+                  
+                    line-height: 1;
+                  
+                    letter-spacing: normal;
+                  
+                    color: var(--dark);
+                    
+                }
+        
+                .gen-icon1{
+                    width: 18px;
+                    height: 18px;
+                    margin-right: 5px;
+                    padding: 1px;
+                    object-fit: contain;
+                    background: white;
+                }
+                .gen-icon2{
+                    width: 15px;
+                    object-fit: contain;
+                    margin-left: 5px;
+                    height: 15px;
+                    opacity: 0.4;
+                    background-color: #80868b;
+                    background: white;
+                    
+                }
+
+                .general-2{
+                    display: flex;
+                    flex-direction: column;
+                    background: white;
+                }
+
+                .general-2:last-child{
+                    border-bottom: none;
+                }
+                    .gen-text{
+                        display: flex;
+                        background: white;
+                        margin-bottom: 6px;
+                        border-spacing: 6px;
+                        border-bottom: 1px solid #dddddd;
+                        padding-bottom: 12px;
+                        background: white;
+                    }
+                    
+                    .gen-text-L{
+                        width: 40%;
+                        height: fit-content;
+                        font-family: Lato;
+                        font-size: 14px;
+                        font-weight: bold;
+                        color: #000000;
+                    }
+            
+                    .gen-text-R{
+                       width: 60%;
+                       max-height: 30px;
+                       margin-left: 10px;
+                        height: fit-content;
+                        font-family: Lato;
+                        font-size: 14px;
+                        color: #000000;
+                        text-overflow:ellipsis ;
+                        white-space: nowrap;
+                        overflow: hidden;
+                    }
+                    .gen-text p{
+                        background: white;
+                    }
+                    .approval{
+                        flex-basis: 200px;
+                        width: 33%;
+                        flex-grow: 1;
+                        display: flex;
+                        flex-direction: column;
+                        border-radius: 0px;
+                        border-right: 1px solid #dddddd;
+                        box-shadow: 2px 0px 0px 0px rgba(0,0,0,.15);
+                        gap: 25px;
+                        
+                    }
+                    
+                        .approval-1{
+                            display: flex;
+                            align-items: flex-start;
+                            align-items: center;
+                            background-color:white;
+                                     
+                          }
+                          .approval-2{
+                            background: white;
+                            width: 100%;
+                            padding-bottom: 20px;
+                            
+                            
+                            
+                        }
+                            .app-line{
+                                display:flex;
+                                width:100%;
+                                border-spacing: 6px;
+                                background: white;
+                                padding-bottom: 10px;
+                                border-bottom: 1px solid #dddddd;
+                                
+                                
+                    
+                            }
+        
+                            .app-icon1{
+                             width: 22px;
+                            height: 18px;
+                            margin-right:5px;
+                            }
+                            .app-line-last{
+                                display:flex;
+                                background: white;
+                                padding-top: 10px;
+                            }
+                    
+                            .app-line-L{
+                                width: 40%;
+                                font-family: Lato;
+                                font-size: 14px;
+                                font-weight: bold;
+                                color: #000000;
+                                background-color:white;
+                            }
+                    
+                            .app-line-R{
+                                width:60%;
+                                font-family: Lato;
+                                font-size: 14px;
+                                color: #000000;
+                                background-color:white;
+                            }
+                    
+                            .approval-3{
+                                display: flex;
+                                background-color:white;
+                                
+                                align-items: center;
+                            }
+
+                
+                            .snapshot{
+                                flex-basis: 200px;
+                                display: flex;
+                                flex-grow: 1;
+                                flex-direction: column;
+                                align-items: flex-start;
+                                width: 30%;
+                                background-color: white;
+                                
+                                
+                            }
+                            
+                                .snapshot-1{
+                                    
+                                    display: flex;
+                                    align-items: flex-start;
+                                    background-color:white;
+                                    align-content: center;
+                                }
+                            
+                                .snap-icon1{
+                                        width: 18px;
+                                        height: 16px;
+                                        opacity: .1;
+                                        
+                            
+                                }
+                            
+                                .snap{
+                                    width: 64px;
+                                            height: 18px;
+                                           padding-left: 5px;
+                                           
+                                            font-family: Lato;
+                                            font-size: 18px;
+                                            font-weight: bold;
+                                            color: black;
+                                            background: white;
+                                            padding-right: 16px;
+                                }
+                                .snapshot-2{
+                                    padding-top: 15px;
+                                    width: 100%;
+                                    height: 60%;
+                                    background: white;
+                                    display: flex;
+                                }
+                            
+                                .fivee{
+                                    width:fit-content;
+                                    height: 100%;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: flex-start;
+                                    background-color: white;
+                                }
+                            
+                                .twelve{
+                                    width:50%;
+                                    background: white;
+                                }
+                            
+                                .five1{
+                                    width: 100%;
+                                    height: fit-content;
+                                    font-family: Lato;
+                                    font-size: 36px;
+                                    font-weight: normal;
+                                    font-stretch: normal;
+                                    font-style: normal;
+                                    line-height: normal;
+                                    letter-spacing: normal;
+                                    text-align: center;
+                                    color: #000000;
+                                    background-color: white;
+                                }
+                            
+                                .five-captions{
+                            
+                                    width: 100%;
+                                    height: fit-content;
+                                    margin: 5px 0 0;
+                                    font-family: Lato;
+                                    font-size: 12px;
+                                    font-weight: normal;
+                                    font-stretch: normal;
+                                    font-style: normal;
+                                    line-height: normal;
+                                    letter-spacing: normal;
+                                    text-align: center;
+                                    color: #77818b;
+                                    background-color: white;
+                                }
+                                .five-captions p{
+                                    background-color: white;
+                                    height: fit-content;
+                                }
+                            
+                                
+                                .snapshot-3{
+                                    display: flex;
+                                    flex-direction: column;
+                                    background:white;
+                                    padding-top: 7px;
+                                    
+                                }
+                            
+                                .references-logo{
+                                    display: flex;
+                                    background-color:white;
+                                    align-items: baseline;
+                                    align-content: center;
+                            
+                                }
+        
+                                .references-logo img{
+                                    padding-top: 0px;
+                                }
+                            
+                                .references{
+                                    display: flex;
+                                    flex-direction: column;
+                                    padding-top: 0px;
+                                    background-color:white;
+                                    width: 100%;
+                                }
+                            
+                                .references ul{
+                                    display: flex;
+                                    flex-direction: column;
+                                    background-color:white;
+                                    
+                                }
+                            
+                                .reflink{
+                                    background-color:white;
+                                    width: 307px;
+                                    height: 18px;
+                                    margin: 10px 0;
+                                    font-family: Lato;
+                                    font-size: 14px;
+                                    font-weight: normal;
+                                    font-stretch: normal;
+                                    font-style: normal;
+                                    line-height: normal;
+                                    letter-spacing: normal;
+                                    color: #e20074;
+                                    width: 100%;
+                                }
+                            
+                                .ref-icon1{
+                                    width: 15px;
+                                    object-fit:cover;
+                                    margin-right: 5px;
+                                    opacity: 1;
+                                    background-color:white;
+                                }
+                            
+                                .ref{
+                                    
+                                    font-family: Lato;
+                                    font-size: 22px;
+                                    font-weight: bold;
+                                    color: #000000;
+                                }
+                                .environment{
+
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    padding-top: 25px;
+                                    align-content: center;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    box-sizing: border-box;
+                                    position: relative;
+                                    padding-bottom: 10px;
+                                }
+                        
+                                .hover1{
+                                    display: block;
+                                    width: fit-content;
+                                    font-family: Lato;
+                                    font-size: 10px;
+                                    letter-spacing: normal;
+                                    color: #000000;
+                                    position: absolute;
+                                    top: 10px;
+                                    right: 0px;
+                                    left: 150px;
+                                    opacity: 0;
+                                    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+                                    background:  #f5f4f4;
+                                    padding: 10px;
+                                    border-radius:8px;
+                        
+                                }
+                        
+                               
+                        
+                        
+                        
+                                .services:hover + .hover1{
+                                    opacity: 1;
+                                }
+                        
+                                .envi1{
+                                    display: flex;
+                                    font-family: Lato;
+                                    font-size: 16px;
+                                    font-weight: bold;
+                                    color: black;
+                                    justify-content: space-between;
+                        
+                                    
+                                }
+                                .envi2 img{
+                                    position:relative;
+                                    margin-left: 5px;
+                                    width: 22px;
+                                    height: 18px;
+                                    object-fit: contain;
+                                }
+                                .envi2{
+                                    display: flex;
+                                    align-items: center;
+                                }
+                                .envi2 div{
+                                    font-family: Lato;
+                                    font-size: 12px;
+                                    font-weight: bold;
+                                    text-align: right;
+                                    color: #e20074;
+                                    border: 2px solid #e20074;
+                                    padding: 5px 8px;
+                                    border-radius: 15px;
+                                }
+                        
+                                  
+                        
+                                .environment img{
+                                    width: 20px;
+                                    object-fit: contain;
+                                    padding-left: 2px;
+                        
+                                }
+
+
+
+                                .card2{
+                                    background: white;
+                                    display: flex;
+                                    justify-content: space-between;
+                                    margin-top: 8px;
+                                    padding-left: 36px;
+                                    flex-wrap: wrap;
+                                    align-items: center;
+                                    padding: 20px;
+                                    border-radius: 8px;
+                                    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+                                   
+                                    
+                                }
+                        
+                                .envi-text{
+                                    display: flex;
+                                    justify-content: space-between;
+                                }
+                                
+                          .envi-text img{
+                            width: 18px;
+                            object-fit: contain;
+                            background-color: #ffffff;
+                            margin-right: 10px;
+                          }
+                        
+                          .envi-text p{
+                        
+                            font-family: Lato;
+                            font-size: 14px;
+                            font-weight: 500;
+                            color: #000000;
+                            background-color: #ffffff;
+                          }
+                        
+                                .envi-create{
+                                    font-family: Lato;
+                                    font-size: 12px;
+                                    font-weight: bold;
+                                    text-align: right;
+                                    color: #e20074;
+                                    display: flex;
+                                    align-items: center;
+                                    padding: 9px 20px 8px;
+                                    border: 2px solid #e20074;
+                                    border-radius: 100px;
+                                }
+                        
+                                .envi-create img{
+                                    width: 12px;
+                                    object-fit: contain;
+                                    margin-left: 10px;
+                                }
+                                table{
+                                    /*overflow-x: scroll;*/
+                                    position: relative;
+                                    background: white;
+                                    border-collapse: collapse;
+                                    
+                                    border-radius: 8px;
+                                    width: 100%;
+                                    
+                        
+                                }
+                                tbody{
+                                    overflow: scroll;
+                                }
+                        
+                                th{
+                                    text-align: left;
+                                    font-family: Lato;
+                                    font-size: 12px;
+                                    color: #273440;
+                                    padding: 10px;
+                                    
+                                    border-collapse: collapse;
+                                    box-shadow: black;
+                                }
+                        
+                                tr{
+                                   padding: 0px;
+                            
+                                }
+                        
+                                .row:hover{
+                                   background:  #f5f5f5;
+                                }
+                                .arrow{
+                                    display: flex;
+                                    align-items: center;
+                                }
+                                .arrows{
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    margin-left: 3px;
+                                    opacity: .6;
+                        
+                                }
+                                .arrows img {
+                                    width: 7px;
+                                    height: 5px;
+                                }
+
+                                .card4{
+                                    padding-right: 20px;
+                                    padding-left:20px;
+                                    margin-top: 20px;
+                                    background: white;
+                                    border-radius: 10px;
+                                    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+                                    margin-bottom: 80px;
+                                    overflow-x: auto;
+                                   
+                                }
+
+                                .branch{
+                                    display: flex;
+                                    align-items: center;
+                                    font-family: Lato;
+                                    font-size: 10px;
+                                }
+                        
+                                .branch img{
+                                    width: 12px;
+                                    object-fit: contain;
+                                    margin-left: 5px;
+                                }
+                        
+                                .column-seven{
+                                    display: flex;
+                                    justify-content: space-between;
+                                }
+                                .row1{
+                                    border-bottom: 3PX solid #dddddd;
+                                }
+
+                                .row{
+                                    padding: 5px;
+                                    border-bottom: 3PX solid #dddddd;
+                                }
+
+                                
+
+                                .row td{
+                                    text-align: left;
+                                    padding: 5px;
+                                    font-family: Lato;
+                                    font-size: 14px;
+                                    color: #273440;
+                                    
+                                }
+
+                                tbody:last-child{
+                                    border: 0px;
+                                    
+                                }
+
+                                .blueT{
+                                    color: blue;
+                                    font-size: 14px;
+                                    font-weight: bold;
+                                    
+                                }
+
+                                .orangeT{
+                                    color: orange;
+                                    font-size: 14px;
+                                    font-weight: bold;
+                                }
+
+                                .greenT{
+                                    color:green;
+                                    font-size: 14px;
+                                    font-weight: bold;
+                                }
+
+                                .contact{
+                                    display: flex;
+                                    justify-content:space-between ;
+                                    background: #f5f4f4;
+                                    border-top: 2px solid #dddddd;
+                                    padding-top: 15px;
+                                    margin: 0px 15px
+                                    
+                                    
+                                }
+                                
+                                .footer-L{
+                                    width: 30%;
+                                }
+                                
+                                .footer{
+                                    width:40%;
+                                    display: flex;
+                                    justify-content: space-between;
+                                    padding-bottom: 25px;
+                                    flex-wrap: wrap;
+                                    align-items: center;
+                                }
+                                
+                                .footer-R{
+                                    width: 30%;
+                                }
+                                
+                                
+                                .footer h3{
+                                    font-family: Lato;
+                                    font-size: 16px;
+                                    font-weight: bold;
+                                    
+                                }
+                                
+                                .footer a{
+                                    font-family: Lato;
+                                    font-size: 16px;
+                                    font-weight: bold;
+                                    
+                                    color: #e20074;
+                                    text-decoration: none;
+                                }
+            /*for drop down*/
+
+            .drop{
+                position: relative;
+                display: flex;
+            }
+            .dropDown{
+                overflow: auto;
+                display: none;
+                
+                padding: 10px;
+                width: 500%;
+                height: 0px;
+                position: absolute;
+                top: 0px;
+                right:15px;
+                border: 1px solid #e20074;
+                border-radius: 0 0 10px 10px;
+                background: #2b343e;
+                z-index: 2;
+                transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+    
+            }
+            .dropDown >div > a{
+                font-family: Lato;
+                font-size: 14px;
+                font-weight: bold;
+                text-align: right;
+                color: #e20074;
+                display: flex;
+                flex-basis: 100px;
+                overflow: auto;
+                flex-wrap: wrap;
+                text-decoration: none;
+                
+            }
+            .dropDown div{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                list-style: none;
+                list-style-type: none;
+            }
+
+            .dropDownActive{
+                display: block;
+                width:80px;
+                height:200px;
+                max-height: 100px;
+                overflow: auto;
+            }
+    
+
+            .sidebar {
+                height: 100%; /* 100% Full-height */
+                width: 250px; /* 0 width - change this with JavaScript */
+                position: fixed; /* Stay in place */
+                z-index: 1; /* Stay on top */
+                top: 0;
+                right: 0;
+                background-color:#2b343e; /* Black*/
+                overflow-x: hidden; /* Disable horizontal scroll */
+                padding-top: 60px; /* Place content 60px from the top */
+                transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+                transform: translateX(250px);
+              }
+            .sidebar-active{
+                transform: translateX(0px);
+            }
+              .sidebar a {
+                padding: 8px 8px 8px 32px;
+                text-decoration: none;
+                font-size: 25px;
+                color: #818181;
+                display: block;
+                transition: 0.3s;
+              }
+            
+              .sidebar a:hover {
+                color: #f1f1f1;
+              }
+            
+              .closebtn {
+                position: absolute;
+                top: 0;
+                right: 5px;
+                font-size: 40px;
+                margin-left: 50px;
+                background: none;
+              }
+
+              .side-bar-translate{
+                transform: translate(0px 250px 0px 0px);
+            }
+
+            .active{
+
+                animation-duration: 2s;
+                font-family: Lato;
+                font-size: 12px;
+                font-weight: bold;
+                color: #e20074;
+                text-decoration: underline;
+            }
+
+
+            .modal {
+                display: none; 
+                position: fixed;
+                z-index: 1; 
+                vertical-align: center;
+                left: 40%;
+                top: 30%;
+                width: 20%;
+                height:40%; 
+                overflow:hidden;
+                
+                background-color: rgba(0,0,0,0.4);
+                padding: 20px;
+              }
+              
+              .modalShow{
+                  display: block;
+              }
+              /* Modal Content/Box */
+              .modal-content {
+                font-family: Lato;
+                font-size: 14px;
+                font-weight: bold;
+                color: #e20074;
+                text-decoration: underline;
+                width: 80%;
+                height: 80%;
+                background-color: #fefefe;
+                padding: 20px;
+                border: 1px solid #888;
+                
+              }
+
+              .close1{
+                  line-height: 30px;
+              }

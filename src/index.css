@@ -1,0 +1,19 @@
+.root{
+    font-size: 100px;
+}
+
+.hello{
+    font-size: 100px;
+}
+
+.title-bar{
+        display: flex;
+        width: 100%;
+        height: fit-content;
+        background: #2b343e;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        box-sizing: border-box;  
+        font-size: 100px;
+}
